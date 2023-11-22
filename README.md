@@ -1,18 +1,28 @@
 # Arquetipo
 Arquetipo para desarrollo net 6.
 ## Descripcion
-<img src="https://vectorseek.com/wp-content/uploads/2023/10/Banco-Columbia-S.A.-Logo-Vector.svg-.png" width="200">
+{ingresar una decrpcion del programa}
 
 ## Endpoints
-swagger:
-healthcheck:
+{especificar el enpoint del swagger}
+
 ## Instalacion
+{especificar como se compila el proyecto}
 
 ## Dependencias
+{en caso de tener dependencias, indicarlas}
 
 ## Variables de entorno
-enumerar las variables necesarias
+{listar todas las variables de entorno necesarias para levantar el poryecto}
+
 ## Configuracion de logueo
-describir como configurar el logueo
+{describir como se configura el logging}
 
 ## Historial de Cambios
+|Autor|fecha|notas|
+|---|---|---|
+|   |   |   |
+
+
+## Licencia
+<img src="https://vectorseek.com/wp-content/uploads/2023/10/Banco-Columbia-S.A.-Logo-Vector.svg-.png" width="200">
