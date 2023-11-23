@@ -25,4 +25,3 @@ Arquetipo para desarrollo net 6.
 
 
 ## Licencia
-<img src="https://vectorseek.com/wp-content/uploads/2023/10/Banco-Columbia-S.A.-Logo-Vector.svg-.png" width="200">
