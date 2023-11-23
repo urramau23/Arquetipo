@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Mauricio Urra - npmauricio@gmail.com",
+  "classifications": [
+    "webapi"
+  ],
+  "name": "Microservice Net6 CleanArchitecture, Contenerized",
+  "identity": "Microservicio.Containerized",
+  "groupIdentity": "Microservicio.Containerized",
+  "shortName": "webapicloud",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Arquetipo",
+  "preferNameDirectory": true,
+  "symbols": {
+    "type": "parameter",
+    "datatype": "bool",
+    "description": "Restore nuget packages",
+    "defaultValue": true
+  },
+  "postActions": [
+    {
+      "condition": "(!skipRestore)",
+      "description": "Restaurando paquetes Nuget",
+      "manualInstructions": [
+        {
+          "text": "Run 'dotnet restore'"
+        }
+      ],
+      "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+      "continueOnError": true
+    }
+  ],
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [ "*.cmd" ]
+        },
+        {
+          "exclude": [ ".vs/**" ]
+        },
+        {
+          "exclude": [ ".git/**" ]
+        }
+      ]
+    }
+  ]
+}
